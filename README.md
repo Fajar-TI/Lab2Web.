@@ -64,7 +64,7 @@ Tugas Post Test Praktikum 2
 
 **Hasil:**
 
-<img width="440" height="194" alt="Screenshot 2026-10-04 114156" src="https://github.com/user-attachments/assets/a19dc005-6112-4a7f-823d-ae499d31aefe" />
+<img width="440" height="194" alt="Screenshot 2026-10-04 114156" src="https://github.com/user-attachments/assets/31ec7a0b-284b-4d1f-a02d-f92e84736cf2" />
 ---
 
 ### 3. Membuat Form Registrasi Mahasiswa
@@ -333,55 +333,6 @@ praktikum-2-html-lanjutan/
 
 ---
 
-## Jawaban Pertanyaan
-
-**1. Apa fungsi `<table>`, `<tr>`, `<th>`, dan `<td>`?**
-- `<table>` : membuat tabel.
-- `<tr>` (*table row*) : membuat satu baris dalam tabel.
-- `<th>` (*table header*) : membuat sel judul kolom/baris.
-- `<td>` (*table data*) : membuat sel berisi data.
-
-**2. Apa perbedaan `<th>` dan `<td>`?**
-`<th>` adalah sel judul; teksnya otomatis **tebal dan rata tengah**, serta bermakna sebagai header bagi screen reader. `<td>` adalah sel data biasa dengan teks normal rata kiri.
-
-**3. Apa fungsi `colspan` pada tabel?**
-`colspan` menggabungkan beberapa kolom menjadi satu sel. Contoh: `colspan="2"` membuat sel melebar selama dua kolom, seperti sel "Rata-rata" pada `tfoot`.
-
-**4. Apa fungsi `<form>` dalam HTML?**
-`<form>` adalah wadah untuk mengumpulkan input dari pengguna dan mengirimkannya ke server atau halaman tertentu (melalui atribut seperti `action` dan `method`).
-
-**5. Apa perbedaan radio button dan checkbox?**
-Radio button hanya membolehkan **satu** pilihan dari satu grup (grup ditentukan oleh `name` yang sama). Checkbox membolehkan memilih **banyak** pilihan sekaligus dan setiap checkbox bisa dicentang atau tidak secara independen.
-
-**6. Mengapa `<label>` sebaiknya terhubung dengan `id` input melalui atribut `for`?**
-- Mengklik teks label otomatis memfokuskan atau memilih input terkait (area klik lebih luas, terutama pada radio/checkbox).
-- Meningkatkan aksesibilitas karena screen reader dapat membacakan label bersama inputnya.
-- Menjelaskan relasi antara teks dan input secara jelas dalam kode.
-
-**7. Apa perbedaan `<textarea>` dengan `input type="text"`?**
-`<textarea>` untuk teks **multibaris** dan panjang (misalnya alamat atau komentar), ukurannya diatur dengan `rows` dan `cols`, serta memiliki tag penutup. `input type="text"` untuk teks **satu baris** pendek (misalnya nama) dan merupakan elemen *self-closing*.
-
-**8. Apa fungsi semantic HTML?**
-- `<header>` : bagian kepala halaman atau bagian (judul, logo).
-- `<nav>` : kumpulan tautan navigasi.
-- `<main>` : isi utama halaman (satu per halaman).
-- `<section>` : pengelompokan konten berdasarkan topik.
-- `<article>` : konten mandiri yang dapat berdiri sendiri (artikel, berita).
-- `<aside>` : konten pendamping/sampingan.
-- `<footer>` : bagian kaki halaman atau bagian (hak cipta, kontak).
-
-Manfaatnya: kode lebih mudah dibaca, lebih ramah SEO, dan lebih aksesibel.
-
-**9. Apa fungsi `required`, `min`, `max`, dan `minlength`?**
-- `required` : input wajib diisi sebelum form dikirim.
-- `min` : nilai minimum yang diperbolehkan (untuk angka/tanggal).
-- `max` : nilai maksimum yang diperbolehkan (untuk angka/tanggal).
-- `minlength` : jumlah karakter minimal pada input teks.
-
-**10. Apa perbedaan elemen `<audio>` dan `<video>`?**
-`<audio>` memutar **suara saja** (misalnya mp3) dan hanya menampilkan pemutar kontrol tanpa tampilan visual. `<video>` memutar **gambar bergerak beserta suara** (misalnya mp4) dan memiliki area tampilan yang ukurannya bisa diatur dengan `width` dan `height`.
-
----
 
 ## Cara Menjalankan
 
